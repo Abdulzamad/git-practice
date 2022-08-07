@@ -38,12 +38,6 @@ services:
     networks:
       - appnet
 
-secrets:
-  db_root_password:
-    external: true
-  db_dba_password:
-    external: true
-
 networks:
   appnet:
     external: true
